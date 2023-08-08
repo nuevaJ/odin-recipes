@@ -7,3 +7,5 @@ The scope for this project is:
     • to know basic HTML tags.
 
 (Right now I am applying css)
+
+    • I created one css file for three html files (lets see in the future if it will workout well)
