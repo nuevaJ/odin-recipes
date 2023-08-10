@@ -1,8 +1,58 @@
-*{
-    padding: 0;
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+    padding: 10px;
+    /* border: 2px solid green;  */
+}
+
+.container {
     margin: 0;
 }
 
-img{
-    width: 150px;
+.container img{
+    width: 80px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.header h2{
+    margin: 0;
+    padding: 10px;
+}
+
+.content h1{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Shrikhand', cursive;
+    font-size: 90px;
+    text-align: center;
+    margin: 100px auto 75px;
+}
+
+.recipe-list{
+    display: block;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.recipe-list-item{
+    list-style: none;
+    display: inline;
+    font-size: 28px;
+    margin: 50px;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+a:hover{
+    color: red;
 }

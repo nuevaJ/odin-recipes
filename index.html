@@ -2,22 +2,33 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
         <link rel="stylesheet" href="styles.css">
 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Poppins:ital,wght@1,300&family=Shrikhand&display=swap" rel="stylesheet">
         <title>Recipes</title>
     </head>
     <body>
-        <img src="./images/ph.png" alt="">
-        <h2>PH Recipes</h2>
-        <br>
-        <h1>TASTE FROM PH</h1>
-        <h4>Experience other cuisine</h4>
-        <br>
+
+        <div class="container">
+            <div class="header">
+                <img src="./images/ph.png" alt="ph flag">
+                <h2>Taste from PH</h2>
+            </div>
+
+            <div class="content">
+                <h1>TOP PICKS</h1>
+                
+                <ul class="recipe-list">
+                    <li class="recipe-list-item"><a href="./recipes/beef_steak.html" rel="noopener noreferrer">Filipino Beef Steak</a></li>
+                    <li class="recipe-list-item"><a href="./recipes/nilaga.html" rel="noopener noreferrer">Nilagang Baka</a></li>
+                    <li class="recipe-list-item"><a href="./recipes/tinola.html" rel="noopener noreferrer">Chicken Tinola</a></li>
+                </ul>
+            </div>
+        </div>
         
-        <ul>
-            <li> <a href="./recipes/beef_steak.html"> Filipino Beef Steak </a></li>
-            <li> <a href="./recipes/nilaga.html"> Beef Nilaga </a></li>
-            <li> <a href="./recipes/tinola.html"> Chicken Tinola </a></li>
-        </ul>
     </body>
 </html>
+
