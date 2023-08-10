@@ -5,7 +5,9 @@ This project requires to create a 4 webpages (1 is for the main page and the oth
 The scope for this project is:
 
     • to know basic HTML tags.
+    • to know CSS tags
 
-(Right now I am applying css)
+(Right now I am applying css on my index page)
 
-    • I created one css file for three html files (lets see in the future if it will workout well)
+    What I am accomplished:
+        • For my initial design in index is done
