@@ -10,4 +10,4 @@ The scope for this project is:
 (Right now I am applying css on my index page)
 
     What I am accomplished:
-        • For my initial design in index is done
+        • For my final design in index is done
