@@ -4,12 +4,10 @@ html{
 
 *, *:before, *:after{
     box-sizing: inherit;
+    margin: 0;
     padding: 10px;
     /* border: 2px solid green;  */
-}
-
-.container {
-    margin: 0;
+    background-color: #000;
 }
 
 .container img{
@@ -24,35 +22,43 @@ html{
 .header h2{
     margin: 0;
     padding: 10px;
+    color: white;
 }
 
 .content h1{
-    font-family: 'Open Sans', sans-serif;
     font-family: 'Shrikhand', cursive;
     font-size: 90px;
     text-align: center;
     margin: 100px auto 75px;
+    color: white;
 }
 
-.recipe-list{
-    display: block;
-    text-align: center;
+.recipe{
+    display: flex;
+    justify-content: center;
+    list-style: none;
     margin: 50px auto;
 }
 
-.recipe-list-item{
-    list-style: none;
-    display: inline;
-    font-size: 28px;
+.nilagang-baka,
+.beef-steak,
+.tinola{
+    display: inherit;
+    align-items: center;
     margin: 50px;
 }
 
-a{
+.recipe a{
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;
-    color: black;
+    font-family: 'Caprasimo', cursive;;
+    color: white;
+    font-size: 25px;
 }
 
 a:hover{
     color: red;
+}
+
+.recipe img{
+    width: 100px;
 }
