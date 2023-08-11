@@ -11,3 +11,6 @@ The scope for this project is:
 
     What I am accomplished:
         • For my final design in index is done
+        • Doing the recipe webpage starting with beef steak (finished)
+        • Doing the recipe webpage starting with beef nilaga (finished)
+        • Doing the recipe webpage starting with chicken tinola (finished)
