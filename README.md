@@ -6,6 +6,7 @@ The scope for this project is:
 
     • to know basic HTML tags.
     • to know CSS tags
+    • to know basic git functions such as commit, add, status, and push.
 
 (Right now I am applying css on my index page)
 
